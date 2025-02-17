@@ -1,1 +1,1 @@
-# Python_Course_WS24
+# Python Course WS 24/25
