@@ -1,0 +1,11 @@
+{
+	"python.testing.unittestArgs": [
+		"-v",
+		"-s",
+		"./advanced",
+		"-p",
+		"test*.py"
+	],
+	"python.testing.pytestEnabled": false,
+	"python.testing.unittestEnabled": true
+}
