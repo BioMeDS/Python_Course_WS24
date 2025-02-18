@@ -1,10 +1,24 @@
 from collections import defaultdict
 
 def PatternCount(Text, Pattern):
+	"""Count number of times that Pattern occurs within Text
+
+	Parameters
+	----------
+	Text : str
+	    DNA Sequence
+	Pattern : str
+	    Short pattern of DNA
+
+	Returns
+	-------
+	int
+	    count
+	"""
 	count = 0
 	for i in range(len(Text)-len(Pattern)+1):
 		if Text[i:i+len(Pattern)] == Pattern:
-			count += 1
+			count += 1 # increase count by one
 	return count
 
 def FrequencyTable(Text, k):
@@ -20,7 +34,7 @@ def FrequentWords(Text, k):
 	words = [key for key,value in counts.items() if value==maxValue]
 	return words
 
-def ReverseComplement(Pattern: str):
+def ReverseComplement(Pattern: str) -> str:
 	return Pattern.translate(str.maketrans("ACGTacgt","TGCAtgca"))[::-1]
 
 def PatternMatching(Genome, Pattern):
