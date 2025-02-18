@@ -35,6 +35,8 @@ def FrequentWords(Text, k):
 	return words
 
 def ReverseComplement(Pattern: str) -> str:
+	if not isinstance(Pattern, str):
+		raise TypeError("ReverseComplement only works on strings")
 	return Pattern.translate(str.maketrans("ACGTacgt","TGCAtgca"))[::-1]
 
 def PatternMatching(Genome, Pattern):
