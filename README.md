@@ -306,11 +306,30 @@ in Miniforge Prompt (Windows), Terminal (mac OS, Linux)
 
 #### Tasks
 
+- work through Chapters 1.8-1.9, "Some Hidden Messages are More Elusive than Others", and "A Final Attempt at Finding DnaA Boxes in E. coli"
+- implement code to solve the "coding challenge"
+- transform your repository into a python package `pycourse24` that you can install into your environment with `pip install -e .` and then import from anywhere in the file system
+- continue to
+  - make regular git commits
+  - document your code (including type hints)
+  - test your code
+
 #### Exercises
+
+1. Solve the Hamming Distance Problem
+2. Solve the Approximate Pattern Matching Problem
+3. Implement `ApproximatePatternCount`
+4. Solve the Frequent Words with Mismatches Problem
+5. Solve the Frequent Words with Mismatches and Reverse Complements Problem
+6. (Optionally) Solve the Final Challenge: Find a DnaA box in Salmonella enterica.
 
 #### Material
 
+- [Python Packaging Guide](https://packaging.python.org/en/latest/tutorials/packaging-projects/). Minimal Structure for a python package. Don't publish your package on PyPI.
+
 #### Important Concepts
+
+- Python packages
 
 ## Further Material
 
