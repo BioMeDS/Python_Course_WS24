@@ -235,3 +235,28 @@ in Miniforge Prompt (Windows), Terminal (mac OS, Linux)
 - Version control (with git)
 - Interactive code execution (with jupyter notebooks)
 - Importing code from a local python file
+
+## Further Material
+
+- [Codingame](https://www.codingame.com/training/easy): Level up your coding with games, puzzles, and challenges.
+- [Introduction to Machine Learning with Python](https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/) by Andreas C. Müller, Sarah Guido
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): Introduction to Data Science with Python after you have learned the language basics.
+
+## Evaluation
+
+[Link to evaluation form]
+
+Please take the time to (anonymously) evaluate this course.
+
+## Exam Assignments
+
+Solve all six assignments in the Rosalind course room by March 7, 2025. As this is an official examination, you must solve the assignments independently. You can use Google but don't copy-paste solutions from someone else (including Chat-GPT). You need to upload your code for each challenge. Be prepared to explain your solution to Markus. In order to pass the exam:
+
+- sign up for the exam in WueStudy
+- solve all six assignments before the deadline
+- Markus checks the code you submitted
+- if the code looks suspicious you have to explain your solutions to Markus
+- some students will be selected at random to explain their solutions to Markus
+- if you are unable to explain your solution, you need to hand in another solution
+
+[Course Sign-up  on [Rosalind](https://rosalind.info/)] Set your full name to your real name.
