@@ -236,6 +236,58 @@ in Miniforge Prompt (Windows), Terminal (mac OS, Linux)
 - Interactive code execution (with jupyter notebooks)
 - Importing code from a local python file
 
+### Tuesday
+
+#### Tasks
+
+- work through Chapter 1.4, "An Explosion of Hidden Messages"
+- add documentation for all functions of this course (past and future)
+- add type hints for all functions of this course (past and future)
+- add extensive tests for all functions of this course (past and future)
+- benchmark your functions with `%%timeit`
+- implement code to solve the "coding challenge"
+- write down any questions and problems that occur, and we'll discuss them in the session tomorrow
+    continue to make git commits after every meaningful step (e.g. implementing a new function, test, etc.)
+
+#### Exercises
+
+1. Solve the Clump Finding Problem
+2. Find all (500,3)-clumps in the E. coli genome (how long does your code take for this task?)
+
+#### Material
+
+- [pandas docstring guide](https://pandas.pydata.org/docs/development/contributing_docstring.html)
+- [Type hints](https://docs.python.org/3/library/typing.html)
+- [Python testing in VS Code](https://code.visualstudio.com/docs/python/testing)
+- [temeit jupyter magic](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-timeit)
+
+#### Important Concepts
+
+- Documentation (docstrings)
+- Type hints
+- Testing (`unittest`)
+- Benchmarking (`%%timeit`)
+
+### Wednesday
+
+#### Tasks
+
+#### Exercises
+
+#### Material
+
+#### Important Concepts
+
+### Thursday
+
+#### Tasks
+
+#### Exercises
+
+#### Material
+
+#### Important Concepts
+
 ## Further Material
 
 - [Codingame](https://www.codingame.com/training/easy): Level up your coding with games, puzzles, and challenges.
