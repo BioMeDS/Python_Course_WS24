@@ -7,11 +7,52 @@
 
 ### Announcements
 
-TODO
+An announcement forum (hosted in WueCampus)
+
+#### Pre-course message
+
+Dear students,
+
+this message contains important information about our course Programmieren mit Python, please read carefully:
+
+- please **fill out the very short pre-course survey** in WueCampus until Friday, February 14
+- there will be a beginner and an advanced group (you can decide for yourself, which one to join)
+- the course **starts next week on Monday, February 17 at 9:00 am** for everyone
+- after that, the beginner and advanced groups will meet at different times via Zoom (see tentative schedule in wuecampus)
+- between meetings you will work through assignments on your own machine
+- please **perform the setup steps** outlined in wuecampus and verify that it works
+- if you have any problems with the setup, let me know until Friday, February 14 (so best do the setup now)
+- join the Zoom meetings with the device you use for programming so you can potentially share your screen
+
+I'm looking forward to seeing you all next week.
+Markus Ankenbrand
 
 ### Pre-course survey
 
-TODO
+- **English or German**: Do you prefer to have this course in English or German?
+- **Prior experience**: Have you ever worked with Python before? yes/no
+- **Other languages**: Have you programmed in any other programming languages? Which ones?
+- **Reading code**: Do you understand what the following Python code does? And would you feel comfortable explaining it to the class? yes (understanding)/yes (understanding and explaining)/no
+
+```python
+l = [1, 4, 6, 9, 2, 4, 3]
+m = l[0]
+for i in l:
+  if i > m:
+    m = i
+print(m)
+```
+
+- **Writing code**: Do you feel comfortable writing Python code to solve the following problem and explaining it to the class? yes (coding)/yes (coding and explaining)/no
+
+Given two lists (l1 and l2) with an equal number of elements, create a third list, l3, that contains the smaller of the two numbers from l1 and l2 at that position:
+
+```python
+l1 = [1, 4, 6, 9, 2, 4, 3]
+l2 = [3, 2, 1, 6, 3, 7, 2]
+# task: write some code that produces
+l3 = [1, 2, 1, 6, 2, 4, 2]
+```
 
 ### Course Repository
 
