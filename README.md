@@ -203,3 +203,35 @@ in Miniforge Prompt (Windows), Terminal (mac OS, Linux)
 - type conversion
 - exception handling (try/except)
 
+## Advanced Group
+
+[Bioinformatics Algorithms: An Active Learning Approach](https://www.bioinformaticsalgorithms.org/read-the-book) by Phillip Compeau and Pavel Pevzner
+
+### Monday
+
+#### Tasks
+
+- work through Chapter 1.1-1.3, "A journey of 1000 miles...", "Hidden messages in the replication origin", and "Some Hidden Messages are More Surprising than Others"
+- create a git repository for this course (optionally link it to a public GitHub repository)
+- implement code to solve the "coding challenges"
+- put all functions in a python file and use them with example input from a jupyter notebook (you might want to use [autoreload](https://ipython.org/ipython-doc/3/config/extensions/autoreload.html))
+- write down any questions and problems that occur, and we'll discuss them in the session tomorrow
+- make git commits after every meaningful step (e.g. implementing a new function)
+
+#### Exercises
+
+1. Implement `PatternCount`
+2. Solve the Frequent Words Problem
+3. Solve the Reverse Complement Problem
+4. Solve the Pattern Matching Problem
+
+#### Material
+
+- [Version Control with Git](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git): An introduction to Git in VS Code
+- [Pro Git Book](https://git-scm.com/book/en/v2): A deep-dive into git. The basics are covered in the first few chapters. You don't need to read this book to follow along.
+
+#### Important Concepts
+
+- Version control (with git)
+- Interactive code execution (with jupyter notebooks)
+- Importing code from a local python file
