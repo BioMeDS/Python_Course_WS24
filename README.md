@@ -272,11 +272,35 @@ in Miniforge Prompt (Windows), Terminal (mac OS, Linux)
 
 #### Tasks
 
+- work through Chapters 1.5-1.7, "The Simplest Way to Replicate DNA", "Asymmetry of Replication", and "Peculiar Statistics of the Forward and Reverse Half-Strands"
+- select and install a [formatter](https://code.visualstudio.com/docs/python/formatting) and let it format your python files and notebooks ([PEP-8 style guide](https://peps.python.org/pep-0008/))
+- select and install a [linter](https://code.visualstudio.com/docs/python/linting) and solve any problems it reports
+- implement code to solve the "coding challenge"
+- write down any questions and problems that occur, and we'll discuss them in the session tomorrow
+- continue to
+  - make regular git commits
+  - document your code (including type hints)
+  - test your code
+
 #### Exercises
+
+1. Solve the Minimum Skew Problem
+2. Write a program that takes a single-sequence fasta file as an input and creates a skew diagram as a png
+3. Extend the above program for multi-sequence fasta files and instead create a pdf file with one plot per sequence ([multi-page pdf with matplotlib](https://matplotlib.org/stable/gallery/misc/multipage_pdf.html))
+4. Try out the [debugging feature of VS Code](https://code.visualstudio.com/docs/python/debugging) to run your code step-by-step
+5. Inspect the [test coverage](https://code.visualstudio.com/docs/python/testing#_run-tests-with-coverage) in your repository
 
 #### Material
 
+- [Salmonella_enterica.fa](advanced/data/Salmonella_enterica.fa)
+- [Prochlorococcus.fa](advanced/data/Prochlorococcus.fa) (multi fasta)
+
 #### Important Concepts
+
+- Enforcing a consistent style (formatting)
+- Avoid potential problems (linting)
+- Debugging
+- Test Coverage
 
 ### Thursday
 
